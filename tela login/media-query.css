@@ -1,0 +1,60 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    .login {
+        width: 80%;
+
+    }
+
+    .login__img {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    .login__form {
+        float: right;
+        width: 70%;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    input[type="submit"] {
+        margin: 0;
+    }
+
+    a {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .login {
+        width: 990px;
+    }
+
+    .login__img {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    .login__form {
+        float: right;
+        width: 60%;
+        
+
+    }
+
+    input {
+        width: 400px;
+    }
+    input[type="submit"] {
+        margin: 0;
+    }
+
+    a {
+        display: inline-block;
+    }
+
+}

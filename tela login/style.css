@@ -3,18 +3,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body,html {
     background: #5f2c82;
-    overflow: hidden;
+    
 }
 
 main {
     position: relative;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    
 }
 
 .login {
